@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Essential meta tag for mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Mobile App</title>
+    <!-- Link to your CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header section (e.g., app title or navigation bar) -->
+    <header>
+        <h1>My App</h1>
+        <nav>
+            <!-- Navigation links would go here -->
+            <a href="#home">Home</a>
+            <a href="#settings">Settings</a>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <section id="home">
+            <h2>Welcome!</h2>
+            <p>This is the main content area of your mobile app.</p>
+            <button id="actionButton">Click Me</button>
+        </section>
+
+        <!-- Other sections/pages can be hidden/shown with CSS/JS -->
+        <section id="settings" style="display:none;">
+            <h2>Settings</h2>
+            <p>Adjust your preferences here.</p>
+        </section>
+    </main>
+
+    <!-- Footer section (e.g., tabs or important links) -->
+    <footer>
+        <p>&copy; 2025</p>
+    </footer>
+
+    <!-- Link to your JavaScript file for interactivity -->
+    <script src="script.js"></script>
+
+</body>
+</html>
